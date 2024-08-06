@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">TravelCompanionApp</string>
+
+    // Title values for all pages
+    <string name="title_home"> Home </string>
+    <string name="title_weather"> Weather </string>
+    <string name="title_places"> Places </string>
+    <string name="title_map"> Map </string>
+    <string name="title_itinerary"> Itineraries </string>
+    <string name="title_create_itinerary"> Create Itinerary </string>
+    <string name="title_itinerary_view"> Viewing your itineraries </string>
+    <string name="title_select_new_location"> Setting New Location </string>
+
+    // Strings for use in Homepage
+    <string name="current_location_message"> Your currently located in </string>
+    <string name="button_use_location"> Current Location </string>
+    <string name="button_use_new_location"> New Location </string>
+    <string name="selected_location_message"> Your selected app location is </string>
+
+    <string name="welcome_message_title"> 👋 Welcome to the Travel Companion App </string>
+    <string name="choose_current_location"> If you would like the app to use this location, please click the button below </string>
+    <string name="choose_new_location"> If you would the app to use a new location, please click the button below </string>
+    <string name="location_instruction"> Please choose which location the app should use, using the buttons below </string>
+
+    // Strings for use in Select Location Page
+    <string name="select_location_page"> Select New Location</string>
+    <string name="select_location_title"> Setting New Location </string>
+    <string name="user_city"> Please enter the City name below </string>
+    <string name="user_city_hint"> City Name </string>
+    <string name="user_country"> Please enter the Country name below </string>
+    <string name="user_country_hint"> Country Name </string>
+    <string name="user_instruction"> Please enter the desired location in the text line below </string>
+    <string name="button_set"> Set Entered Location </string>
+    <string name="button_home_back"> Back to Homepage </string>
+
+    // Strings for use in Weather page
+    <string name="refresh_weather"> Refresh Weather </string>
+
+    // Strings for use in Places page
+    <string name="places_location"> Explore the city of </string>
+    <string name="places_hint"> Please enter places you wish to search  </string>
+    <string name="fetch_places"> Display Places </string>
+    <string name="update_places"> Update Places </string>
+
+    // Strings for use in Itineraries page
+    <string name="itinerary_title"> Viewing your itineraries </string>
+    <string name="itinerary_create"> Create your itinerary </string>
+    <string name="itinerary_search_hint"> Please enter Itinerary Title </string>
+
+    <string name="search_icon"> ⌕ </string>
+
+    // Strings for use in Create Itineraries page
+    <string name="itinerary_create_title"> Itinerary Title </string>
+    <string name="itinerary_create_title_hint"> Barcelona Day 1 </string>
+    <string name="itinerary_create_starting_location"> Starting Location </string>
+    <string name="itinerary_create_starting_location_hint"> Hilton Barcelona </string>
+    <string name="itinerary_create_plan"> Places to visit </string>
+    <string name="itinerary_create_plan_hint"> Visit Spotify Camp Nou </string>
+    <string name="itinerary_create_notes"> Additional Notes </string>
+    <string name="itinerary_create_notes_hint"> Remember to withdraw 100 euros </string>
+    <string name="button_save_itinerary"> Save Created Itinerary </string>
+    <string name="button_itinerary_back"> Back to Itinerary List </string>
+
+    // Strings for use in Itineraries View page
+    <string name="itinerary_view_title"> View Itinerary </string>
+    <string name="itinerary_view_message"> Detailed Itinerary View </string>
+    <string name="button_update_itinerary"> Update </string>
+    <string name="button_delete_itinerary"> Delete </string>
+
+</resources>

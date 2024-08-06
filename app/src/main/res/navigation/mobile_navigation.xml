@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.travelcompanionapp.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.travelcompanionapp.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/placesFragment"
+        android:name="com.example.travelcompanionapp.PlacesFragment"
+        android:label="@string/title_places"
+        tools:layout="@layout/fragment_places" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.travelcompanionapp.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_setLocationFragment"
+            app:destination="@id/setLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itineraryFragment"
+        android:name="com.example.travelcompanionapp.ItinerariesFragment"
+        android:label="@string/title_itinerary"
+        tools:layout="@layout/fragment_itineraries" >
+        <action
+            android:id="@+id/action_itineraryFragment_to_createItineraryFragment"
+            app:destination="@id/createItineraryFragment" />
+        <action
+            android:id="@+id/action_itineraryFragment_to_viewItineraryFragment"
+            app:destination="@id/viewItineraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createItineraryFragment"
+        android:name="com.example.travelcompanionapp.CreateItineraryFragment"
+        android:label="@string/title_create_itinerary"
+        tools:layout="@layout/fragment_create_itinerary">
+        <action
+            android:id="@+id/action_createItineraryFragment_to_itineraryFragment"
+            app:destination="@id/itineraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewItineraryFragment"
+        android:name="com.example.travelcompanionapp.ViewItineraryFragment"
+        android:label="@string/itinerary_view_title"
+        tools:layout="@layout/fragment_view_itinerary">
+        <action
+            android:id="@+id/action_viewItineraryFragment_to_itineraryFragment"
+            app:destination="@id/itineraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setLocationFragment"
+        android:name="com.example.travelcompanionapp.SetLocationFragment"
+        android:label="@string/title_select_new_location"
+        tools:layout="@layout/fragment_set_location">
+        <action
+            android:id="@+id/action_setLocationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>
